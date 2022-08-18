@@ -1,1 +1,4 @@
-# Lista_Algoritimo_UCB
+# Lista
+#Algoritimo UCB
+##Aula De Algoritimo 
+###DanielL159
