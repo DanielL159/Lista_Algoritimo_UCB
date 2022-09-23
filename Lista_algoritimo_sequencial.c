@@ -18,7 +18,8 @@ printf("Eu falo em forma de versos para todos poderem escutar.\nAgora voces ja s
 printf("cadernos de poesias");
 }*/
 
-//EXERCICIOS 4
+
+//EXERCICIOS 3
 /*
 int main(){
     int a=0;
@@ -47,7 +48,7 @@ int main(){
 
 }   */
 
-//EXERCIO 5
+//EXERCIO 4
 /*
 int main(){
     int a,b,x;
@@ -59,7 +60,7 @@ int main(){
     printf("%d + %d = %d",a,b,x);
 
 }    */
-//EXERCIO 6
+//EXERCIO 5
 /*
 int main(){
     int a,b,x;
@@ -71,8 +72,21 @@ int main(){
     printf("%d + %d = %d",a,b,x=a+b);
 
 }  */
+//EXERCIO 6
+/*
+int main(){
+    int a=5,=3,x;
+    printf("Me passe o valor de A:");
+    scanf("%d",&a);
+    printf("Me passe o valor de :");
+    scanf("%d",&b);
 
-//EXERCICO7
+    printf("%d + %d = %d",a,b,x=a+b);
+
+}  */
+
+
+//EXERCICO 7
 /*
 int main(){
 int a,b,PROD;
@@ -140,6 +154,7 @@ resultado = sqrt(pow(x[1]-x[0],2)+pow(y[1]-y[0],2));
 
 printf("A distancia e %.2f",resultado);
 }*/
+
 //EXERCICIO 11
 /*
 int main(){
