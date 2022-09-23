@@ -43,7 +43,7 @@ int main (){
     
 }*/
 
-//EXERCICIO 4
+//EXERCICIO 3
 /*
 int main (){
     int numero,par;
@@ -62,7 +62,7 @@ int main (){
     
 }*/
 
-//EXERCICIO 5
+//EXERCICIO 4
 /*
 int main(){
     int numero ,quadrado;
@@ -87,7 +87,7 @@ int main(){
 
 }*/
 
-//EXERCICIO 6 //(ASPAS SIMPLE != ASPAS DUPLAS)
+//EXERCICIO 5 //(ASPAS SIMPLE != ASPAS DUPLAS)
 /*
 int main (){
     float altura=0.0,homem,mulher; 
@@ -112,7 +112,7 @@ int main (){
     
 }*/
 
-//EXERCICIO 7
+//EXERCICIO 6
 /*
 int main(){
     int a[4],i;
@@ -138,7 +138,7 @@ int main(){
     
 }*/
 
-//Exercicio 8  terminar
+//Exercicio 7 terminar
 /*
 int main (){
     float mg,sp,rj,ms,venda;
@@ -150,10 +150,9 @@ int main (){
     printf("Qual o destino da venda :");
     scanf("%s",&estado);
 
-   ;
     
     
-    if (estado =="MG"  || estado == "mg")
+    if (strcmp(estado,"MG")==0 || strcmp(estado,"mg")==0  ) //fun��o de comparar strings
     {
         mg= venda + (venda * 0.07);
         printf("O valor da venda para Minas Gerais e %.2f",mg);
@@ -181,7 +180,7 @@ int main (){
 }
 */
 
-//EXERCICIO 9
+//EXERCICIO 8
 /*
 int main(){
     int idade;
@@ -209,7 +208,7 @@ int main(){
 
 }*/
 
-//EXERCICIO 10
+//EXERCICIO 9
 /*
 int main(){
     float altura,peso;
@@ -262,14 +261,32 @@ int main(){
 int main (){
     int y,x;
 
-    printf("ME fornaça a posiçao x");
+    printf("Me forneca a posicao x");
     scanf("%d",&x);
-    printf("ME fornaça a posiçao y");
+    printf("Me forneca a posicao y");
     scanf("%d",&y);
     if (x>0 && y>0)
     {
-        
-        printf("O");
+        printf("O ponto se encontra no 1 quadrante\n");
+    }else if(x<0 && y>0)
+    {
+        printf("O ponto se encontra no 2 quadrante\n");
+    }
+    else if (x<0 && y<0)
+    {
+        printf("O ponto esta no 3 quadrante\n ");
+    }else if(x>0 && y<0)
+    {
+        printf("O ponto se encontra no 4 quadrante\n");
+    }else if (x == 0 && y ==0)
+    {
+        printf("Origem\n");
+    }else if (x == 0)
+    {
+        printf("Eixo x\n");
+    }else if (y==0)
+    {
+        printf("Eixo y\n");
     }
     
 
