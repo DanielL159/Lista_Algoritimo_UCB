@@ -178,7 +178,8 @@ int main (){
                         printf("Erro, o estado digitado nao esta no nosso banco de dados");
                     }
             
-}*/
+}
+*/
 
 //EXERCICIO 9
 /*
@@ -256,3 +257,20 @@ int main(){
     }
     
 }*/
+
+//  EXERCICO 11
+int main (){
+    int y,x;
+
+    printf("ME fornaça a posiçao x");
+    scanf("%d",&x);
+    printf("ME fornaça a posiçao y");
+    scanf("%d",&y);
+    if (x>0 && y>0)
+    {
+        
+        printf("O");
+    }
+    
+
+}
