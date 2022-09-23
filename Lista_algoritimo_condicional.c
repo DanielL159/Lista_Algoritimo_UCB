@@ -258,6 +258,7 @@ int main(){
 }*/
 
 //  EXERCICO 11
+/*
 int main (){
     int y,x;
 
@@ -290,4 +291,4 @@ int main (){
     }
     
 
-}
+}*/
