@@ -322,3 +322,222 @@ int main (){
     
 
 }*/
+
+//EXERCICIO 12
+/*
+int main (){
+    int x;
+
+    printf("Me forneca a posicao o mes :");
+    scanf("%d",&x);
+    
+    if (x == 1)
+    {
+    printf("Esse mes e janeiro");
+    }else if(x ==2)
+    {
+    printf("Esse mes e fevereiro fevereiro");   
+    }
+    else if ( x == 3)
+    {
+     printf("Esse mes e marco");   
+    }else if( x==4)
+    {
+    printf("Esse mes e abril");
+    }else if ( x==5)
+    {
+     printf("Esse mes e maio ");   
+    }else if (x==6)
+    {
+    printf("Esse mes e junho");    
+    }else if (x==7)
+    {
+     printf("Esse mes e julho");   
+    } else if (x == 8)
+    {
+    printf("Esse mes e agosto");
+    }else if(x ==9)
+    {
+    printf("Esse mes e setembro ");
+    }
+    else if ( x == 10)
+    {
+    printf("Esse mes e outubro");    
+    }else if( x==11)
+    {
+    printf("Esse mes e novembro");
+    }else if ( x==12)
+    {
+     printf("Esse mes dezembro ");   
+    }else if (x>12 || x<=0)
+    {
+     printf("Esse mes nao existe ");   
+    }
+
+}*/
+
+//exercico 13
+/*
+int main (){
+
+
+}*/
+
+//exercicio 14
+/*
+int main (){
+    int i ;
+    printf("Me fornaca o dia da semana :");
+    scanf("%d",&i);
+
+    switch (i)
+    {
+    case 1:
+       printf ("Hj e domingo");
+        break;
+        case 2:
+       printf ("Hj e segunda");
+        break;
+        case 3:
+       printf ("Hj e terca");
+        break;
+        case 4:
+       printf ("Hj e quarta");
+        break;
+        case 5:
+       printf ("Hj e quinta");
+        break;
+        case 6:
+       printf ("Hj e sexta");
+        break;
+        case 7:
+       printf ("Hj e sabado");
+        break;
+    
+    default:
+    printf("Esse dia nao existe");
+        break;
+    }
+}*/
+
+//EXERCICIO 15
+/*
+int main(){
+int ddd;
+    printf("Me forneca o DDD :");
+    scanf("%d",&ddd);
+
+switch (ddd)
+    {
+    case 61:
+       printf ("Brasilia");
+        break;
+
+        case 71:
+       printf ("Salvador");
+        break;
+
+        case 11:
+       printf ("São Paulo");
+        break;
+
+        case 21:
+       printf ("Rio de Janeiro");
+        break;
+        case 32:
+       printf ("Juiz de Fora");
+        break;
+
+        case 16:
+       printf ("Campinas");
+        break;
+
+        case 27:
+       printf ("Vitoria");
+        break;
+        case 31:
+        printf("Belo Horizonte");
+        break;
+    
+    default:
+    printf("Nao existe esse DDD");
+        break;
+    }
+}*/
+
+//EXERCICIO 16
+/*
+int main (){
+    int i;
+    float numero[2],calculo;
+    printf("Escolha uma das opcoes a baixo :\n");
+    printf("(1)a+b = x\n(2)a-b = x\n(3)a*b = x\n(4)a/b = x\n");
+    scanf("%d",&i);
+
+   
+    if(i>=5 || i <= 0 ){
+        printf("Opcao nao selecionada ");
+    }else{
+    printf("Agora por gentileza me forneca os numeros\n");
+    printf("Numeros 1:");
+    scanf("%f",&numero[0]);
+    printf("Numeros 2:");
+    scanf("%f",&numero[1]);
+
+        switch (i)
+        {
+        case 1:
+            calculo = numero[0]+numero[1]; 
+            printf("O calculo escolhido foi a+b = x\nE o resultado e %.2f",calculo);
+            
+            break;
+            
+            case 2:
+            calculo = numero[0]-numero[1] ;
+        printf("O calculo escolhido foi a-b = x\nE o resultado e %.2f",calculo);
+            break;
+            
+            case 3:
+            calculo = numero[0]*numero[1]; 
+        printf("O calculo escolhido foi a*b = x\nE o resultado e %.2f",calculo);
+            break;
+            
+            case 4:
+            calculo = numero[0]/numero[1] ;
+        printf("O calculo escolhido foi a/b = x\nE o resultado e %.2f",calculo);
+            break;
+
+            default:
+            break;
+        }
+    }
+}
+*/
+
+//EXERCICIO 17 
+/*
+int main (){
+     int i ,por3,por5;
+    printf("Me fornela o numero :");
+    scanf("%d",&i);
+  por3= i % 3;
+  por5= i % 5;
+  
+    if (por3==0 && por5==0)
+    {
+        printf("Esse numero NAO pode pois e divisivel por 3 e por 5");
+    }
+    else if(por3==0)
+    {
+        printf("Numero divisivel por 3");
+    }else if(por5==0)
+    {
+        printf("Numero divisivel por 5");
+    }  else if(por3>0 && por5 > 0)
+    {
+        printf("Numero nao divisivel nem por 3 e nem por 5");
+    }
+    
+}*/
+
+//EXERCICIO 18
