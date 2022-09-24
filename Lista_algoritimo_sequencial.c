@@ -26,8 +26,7 @@ int main(){
     float b=0;
     double c=0;
     char d[1], e[50];
-    bool a ;
-   
+  
 
     printf("Por favor me passe o num inteiro : ");
     scanf("%i",&a);
@@ -39,10 +38,7 @@ int main(){
     scanf("%s",&d);
     printf("Por favor me a string : ");
     scanf("%s",&e);
-    printf("Por favor me a string : ");
-    scanf("%s",&e);  
-    printf("Por favor me a string : ");
-    scanf("%b",&e);
+    
 
     printf("O numero inteiro e :%d\nO numero real e :%f\nO numero real maior e :%lf\nA letra e :%s\nA string e :%s",a,b,c,d,e);
 
