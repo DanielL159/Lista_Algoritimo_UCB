@@ -1,6 +1,51 @@
 #include <stdio.h>
 #include <math.h>
 #include <string.h>
+
+//exercicio 1
+/*
+int main (){
+    int a[2],i;
+
+    for (i=0; i<2; i++){
+        printf("Por favor me forneca o numero %d",i);
+        scanf("%d",&a[i]);
+    }
+    if ( a[0] > a[1])
+    {
+       printf("O numero %d e o maior ",a[0]);
+    } 
+    else if (a[1] > a[0])
+    {
+        printf("Numero %d e o maior ", a[1]);
+    }
+    
+
+}*/
+
+//Exercicio 2
+int main (){
+    int a[2],i;
+
+    for (i=0; i<2; i++){
+        printf("Por favor me forneca o numero %d :",i);
+        scanf("%d",&a[i]);
+    }
+    if ( a[0] > a[1])
+    {
+       printf("O numero %d e o maior ",a[0]);
+    } 
+    else if (a[1] == a[0])
+    {
+        printf("Numeros iguais ");
+    }else {
+        printf("Numero %d e o maior ", a[1]);
+    }
+    
+
+}
+
+
 //EXERCICIO 3
 /*
 int main (){
