@@ -68,16 +68,26 @@ int main (){
 }*/
 
 //Exercio 4
+/*
 int main (){
+    int prestacao ;
+    float salario ;
 
+    printf("Por favor me forenaca o salario do funcionario :");
+    scanf("%f",&salario);
 
+    printf("Por favor me forenaça a prestacao do funcionario :");
+    scanf("%d",&prestacao);
 
+    if (prestacao > salario *0.2)
+    {
+        printf("Emprestimo nao concedido.");
+    }else{
+        printf("Emprestimo concedido.");
+    }
+    
 
-}
-
-
-
-
+}*/
 
 //EXERCICIO 5
 /*
