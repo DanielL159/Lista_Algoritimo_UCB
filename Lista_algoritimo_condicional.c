@@ -23,47 +23,7 @@ int main (){
 
 }*/
 /*
-//Exercicio 2
-int main (){
-    int a[2],i;
 
-    for (i=0; i<2; i++){
-        printf("Por favor me forneca o numero %d :",i);
-        scanf("%d",&a[i]);
-    }
-    if ( a[0] > a[1])
-    {
-       printf("O numero %d e o maior ",a[0]);
-    } 
-    else if (a[1] == a[0])
-    {
-        printf("Numeros iguais ");
-    }else {
-        printf("Numero %d e o maior ", a[1]);
-    }
-    
-
-}
-*/
-
-//EXERCICIO 3
-/*
-int main (){
-    int numero[2],i;
-    for (  i = 0; i < 2; i++)
-    {
-       printf("Por favor me informe o numero %d :",i+1);
-       scanf("%d",&numero[i]); 
-    }
-
-    if (numero[0]>numero [1])
-    {
-        printf("Numero %d e o maior",numero[0]);
-    }else{
-        printf("Numero %d e o maior",numero[1]);
-    }
-    
-}*/
 
 //EXERCICIO 2
 /*
@@ -107,7 +67,19 @@ int main (){
     
 }*/
 
-//EXERCICIO 4
+//Exercio 4
+int main (){
+
+
+
+
+}
+
+
+
+
+
+//EXERCICIO 5
 /*
 int main(){
     int numero ,quadrado;
@@ -132,7 +104,7 @@ int main(){
 
 }*/
 
-//EXERCICIO 5 //(ASPAS SIMPLE != ASPAS DUPLAS)
+//EXERCICIO 6 //(ASPAS SIMPLE != ASPAS DUPLAS)
 /*
 int main (){
     float altura=0.0,homem,mulher; 
@@ -157,7 +129,7 @@ int main (){
     
 }*/
 
-//EXERCICIO 6
+//EXERCICIO 7
 /*
 int main(){
     int a[4],i;
@@ -183,7 +155,7 @@ int main(){
     
 }*/
 
-//Exercicio 7 terminar
+//Exercicio 8 terminar
 /*
 int main (){
     float mg,sp,rj,ms,venda;
@@ -225,7 +197,7 @@ int main (){
 }
 */
 
-//EXERCICIO 8
+//EXERCICIO 9
 /*
 int main(){
     int idade;
@@ -253,7 +225,7 @@ int main(){
 
 }*/
 
-//EXERCICIO 9
+//EXERCICIO 10
 /*
 int main(){
     float altura,peso;
@@ -302,7 +274,7 @@ int main(){
     
 }*/
 
-//EXERCICIO 10
+//EXERCICIO 11
 /*
 int main(){
     int n[3];
@@ -332,7 +304,7 @@ int main(){
     } 
 }*/
 
-//  EXERCICO 11
+//  EXERCICO 12
 /*
 int main (){
     int y,x;
@@ -368,7 +340,7 @@ int main (){
 
 }*/
 
-//EXERCICIO 12
+//EXERCICIO 13
 /*
 int main (){
     int x;
@@ -421,14 +393,14 @@ int main (){
 
 }*/
 
-//exercico 13
+//exercico 14
 /*
 int main (){
 
 
 }*/
 
-//exercicio 14
+//exercicio 15
 /*
 int main (){
     int i ;
@@ -465,7 +437,7 @@ int main (){
     }
 }*/
 
-//EXERCICIO 15
+//EXERCICIO 16
 /*
 int main(){
 int ddd;
@@ -510,7 +482,7 @@ switch (ddd)
     }
 }*/
 
-//EXERCICIO 16
+//EXERCICIO 17
 /*
 int main (){
     int i;
@@ -559,7 +531,7 @@ int main (){
 }
 */
 
-//EXERCICIO 17 
+//EXERCICIO 18 
 /*
 int main (){
      int i ,por3,por5;
@@ -585,7 +557,7 @@ int main (){
     
 }*/
 
-//EXERCICIO 18 a ser realizado 
+//EXERCICIO 19 a ser realizado 
 //a entender ( perguntar)
 /*
 int main(){
@@ -653,7 +625,7 @@ return 0;
 }
 */
 
-//EXERCICIO 19
+//EXERCICIO 20
 /*
 int main (){
     int i ;
@@ -705,7 +677,7 @@ int main (){
     }
 }*/
 
-//EXERCICIO 20
+//EXERCICIO 21
 /*
 int main (){
     float a,b,c,delta,raiz,raiz2;
