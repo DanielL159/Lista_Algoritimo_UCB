@@ -56,6 +56,7 @@ int main(){
     printf("%d + %d = %d",a,b,x);
 
 }    */
+
 //EXERCIO 5
 /*
 int main(){
@@ -68,6 +69,7 @@ int main(){
     printf("%d + %d = %d",a,b,x=a+b);
 
 }  */
+
 //EXERCIO 6
 /*
 int main(){
