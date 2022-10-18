@@ -22,7 +22,7 @@ int main (){
     
 
 }*/
-
+/*
 //Exercicio 2
 int main (){
     int a[2],i;
@@ -44,7 +44,7 @@ int main (){
     
 
 }
-
+*/
 
 //EXERCICIO 3
 /*
