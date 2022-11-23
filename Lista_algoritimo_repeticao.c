@@ -1,4 +1,5 @@
-/*EXERCICIO 19 
+/*
+EXERCICIO 19 
 EXERCICIO 21
 */
 #include <stdio.h>

@@ -1,5 +1,4 @@
 //Exercicio 8
-
 #include <stdio.h>
 #include <math.h>
 #include <string.h>
