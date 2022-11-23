@@ -1,3 +1,6 @@
+/*EXERCICIO 19 
+EXERCICIO 21
+*/
 #include <stdio.h>
 
 
@@ -456,7 +459,7 @@ int main (){
 
 }*/
 
-// Exercicio 21
+// Exercicio 21 (PROBLEMA DE STRING)
 
 
 #include <string.h>

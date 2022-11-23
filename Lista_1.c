@@ -1,3 +1,5 @@
+//Exercuicio 5
+
 #include <stdio.h>
 
 /* Exercicio 1
@@ -45,34 +47,46 @@ int main(){
 */
 
 
-/* Exercicio 4 (SEM EXITO AO REALIZAR , ERRO NO CALCULO do resto)
+//Exercicio 4 
+/*
 int main(){
-    int num[1],resto,quociente;
+    int num[1],resto,quociente,i;
 
-    printf("Por gentileza me forneça os numero  : ");
-    scanf ("%f",&num[0]);
-    printf("Por gentileza me forneça os numero  : ");
-    scanf ("%f",&num[1]);
+    for ( i = 0; i < 2; i++)
+    {
+        printf("Por gentileza me forneça os numero %d : ",i+1);
+        scanf ("%d",&num[i]);
+    }
+    
 
     resto= num[0]%num[1];
-    quociente= num[0]\num[1];
+    quociente= num[0]/num[1];
     printf("O resto e = %.1d , e o quociente e = %d",resto,quociente);
 
-}
-*/
-/*Exercicio 5(Nao entendi o Exercicio)
+}*/
+
+//Exercicio 5(Nao entendi o Exercicio)
+/*
 int main (){
-    int rolos ,resultado;
+    int rolos ,resultado,falta;
+    float necessita;
     int metrosFios = 50;
 
     printf("Quantos Rolos possui :");
     scanf("%d",&rolos);
+
     resultado= rolos*metrosFios;
     printf("vc possui %d metros de fio ao todo",resultado);
+    printf("De quantos metros precisa :");
+    scanf("%f",&necessita);
+
+    falta =necessita- resultado ;
+    resultado= falta % resultado;
+    printf("Vc precisa de mais %d metros ou %d rolo ",resultado,resultado/50);
 
 
-}
-*/
+}*/
+
 
 /* Questao 6 (pode -se melhorar)
 int main(){
@@ -86,14 +100,14 @@ int main(){
     scanf("%d",&b);
 
     if(a >= 10){
-            a >=10;
+            a =10;
         }else if(a <=0 ){
-            a <=0;
+            a =0;
     }
     if(b >= 10){
-            b >=10;
+            b =10;
         }else if(b <=0 ){
-            b <=0;
+            b =0;
     }
 
     media = (a *peso1)+(b*peso2)/(peso1+peso2);

@@ -1,3 +1,4 @@
+//Exercico 5
 #include<stdio.h>
 #include<string.h>
 
