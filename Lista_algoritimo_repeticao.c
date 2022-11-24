@@ -465,8 +465,9 @@ int main (){
 
 #include <string.h>
 int main (){
-    int idade,total=0,porcentage;
-    int qfeminino=0,qidade=0,qolhos=0,qcabelo=0;
+    int idade;
+    float total=0.0, a=0;
+    float media;
     float salario;
     char sexo,olhos,cabelo;
 
@@ -475,6 +476,8 @@ int main (){
 
     do 
     {
+        
+      
         printf("Quantos anos tem a pessoa: ");
         scanf("%d",&idade);
         if (idade <0 )
@@ -488,60 +491,74 @@ int main (){
             scanf("%d",&idade);
         }
 
-        if (idade >18 && idade < 35)
+      
+        
+         printf("Me forneca o sexo (M)asculino ou (F)eminino: ");
+        fflush(stdin);
+        scanf("%c",&sexo);
+        printf("\n");
+        
+         while ( sexo != 'M' && sexo != 'F' )
         {
-           qidade ++;
+              printf("Me forneca o sexo (M)asculino ou (F)eminino: ");
+            fflush(stdin);
+            scanf("%c",&sexo);
+            printf("\n");
         }
+        
+        
+        
         
 
         printf("Qual a cor dos olhos\n(A)zul,\n(V)erdes,\n(C)astanhos,\n(P)retos:");
         fflush(stdin);
         scanf("%c",&olhos);
-        printf("%c",olhos);
+         printf("\n");
+        
 
         while ( olhos != 'A' && olhos != 'V' && olhos != 'C' && olhos != 'P')
         {
             printf("Qual a cor dos olhos\n(A)zul,\n(V)erdes,\n(C)astanhos,\n(P)retos: ");
             fflush(stdin);
             scanf("%c",&olhos);
+             printf("\n");
         }
          
-        if (olhos =='C')
-        {
-            
-            qolhos++;   
-        }
+        
  
 
         printf("Qual a cor dos cabelo\n(L)oiros,\n(C)astanhos,\n(P)retos,\n(R)uivos: ");
         fflush(stdin);
         scanf("%c",&cabelo);
+        printf("\n");
 
         while ( cabelo != 'L' && cabelo != 'C'&& cabelo != 'P' && cabelo != 'R')
         {
             printf("Qual a cor dos cabelo\n(L)oiros,\n(C)astanhos,\n(P)retos,\n(R)uivos: ");
             fflush(stdin);
             scanf("%c",&cabelo);
+            printf("\n");
         }
         
-        if (cabelo =='C')
-        {
-            qcabelo++;
-        }
+     
 
-        printf("Quantos recebe tem a pessoa: ");
-        scanf("%d",&salario);
+        printf("Quantos recebe a pessoa: ");
+        scanf("%f",&salario);
+    printf("\n");
        
         while (salario <10 || salario >100)
         {
             printf("salario errada me forneca uma salario valida (entre 10 e 100 anos): ");
-            scanf("%d",&salario);
+            scanf("%f",&salario);
+            printf("\n");
         }
-
+        if (sexo == 'F' && olhos == 'C' && cabelo== 'C'  && idade >= 18 && idade <= 35)
+        {
+           a++;
+        }
         total ++;
     }while (idade>0);
-    
-    
-  porcentage =(qfeminino + qidade + qolhos+qcabelo)/total;
-  printf(" porcentagem de indivíduos do sexo feminino, com \nidade entre 18 e 35 anos e que tenham olhos castanhos e cabelos castanhos = %d\%",porcentage);
+
+        media = (a/total)*100.00;
+  printf(" \nporcentagem de indivíduos do sexo feminino, com \nidade entre 18 e 35 anos e que tenham olhos castanhos e cabelos castanhos = %.2f%%",media);
 }
