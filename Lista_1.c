@@ -67,23 +67,18 @@ int main(){
 //Exercicio 5(Nao entendi o Exercicio)
 /*
 int main (){
-    int rolos ,resultado,falta;
-    float necessita;
-    int metrosFios = 50;
-
-    printf("Quantos Rolos possui :");
-    scanf("%d",&rolos);
-
-    resultado= rolos*metrosFios;
-    printf("vc possui %d metros de fio ao todo",resultado);
-    printf("De quantos metros precisa :");
-    scanf("%f",&necessita);
-
-    falta =necessita- resultado ;
-    resultado= falta % resultado;
-    printf("Vc precisa de mais %d metros ou %d rolo ",resultado,resultado/50);
-
-
+	
+    int metros,mAvulsos, nRolos;
+    
+    printf("Quantos metros?");
+    scanf("%d",&metros); //150 
+    
+    nRolos = metros / 50;
+    mAvulsos = metros % 50;
+    
+    printf(" Rolos %d com %d metros avulsos ", nRolos, mAvulsos );
+    
+  
 }*/
 
 
