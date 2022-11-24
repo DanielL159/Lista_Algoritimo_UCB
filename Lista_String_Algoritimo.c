@@ -1,4 +1,4 @@
-//Exercico 5
+
 
 #include<stdio.h>
 #include<string.h>
@@ -102,17 +102,21 @@ int main (){
     char nome[1000],sobrenome[50],cpf[11],cpff[3];
 
     printf("Nome: ");
+    fflush(stdin);
     scanf("%s",&nome);
 
     printf("Sobrenome: ");
+    fflush(stdin);
     scanf("%s",&sobrenome);
 
     printf("Cpf: ");
+    fflush(stdin);
     scanf("%s",&cpf);
-    
-    
-   strcat(nome,sobrenome);
-   strcat(sobrenome,cpf);
+
+    strncat(nome,sobrenome,1);
+    strncat(nome,cpf,3);
+
+
      
     printf("%s", nome);
    
