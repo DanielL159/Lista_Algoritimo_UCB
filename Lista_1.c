@@ -78,7 +78,6 @@ int main (){
     
     printf(" Rolos %d com %d metros avulsos ", nRolos, mAvulsos );
     
-  
 }*/
 
 
